@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+button{
+    display: inline-block;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    text-align: center;
+    background: cyan;
+    border-color: cyan;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+}
+.input{
+    box-sizing: content-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+#mode_type{
+    box-sizing: border-box;
+}
+/* .options{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+}
+.options .icon{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+} */
